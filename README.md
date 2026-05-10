@@ -8,6 +8,10 @@ A shell project for Python beginners using modern tooling: **UV** for package ma
 
 ---
 
+![Project Setup Diagram](./python-project-setup.png)
+
+---
+
 ## 🧰 Tools Overview
 
 ### ⚡ UV — Fast Python Package Manager
