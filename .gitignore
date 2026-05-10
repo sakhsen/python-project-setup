@@ -216,3 +216,55 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# LangChain
+#   Ignore local cache, run traces, and data stores used by LangChain
+.langchain/
+.langchain.db
+langchain.db
+
+#   LangSmith / LangFuse tracing
+.langsmith/
+
+#   FAISS / Chroma / vector store local indexes
+faiss_index/
+chroma_db/
+vectorstore/
+*.faiss
+*.pkl
+
+#   Agent scratchpads and intermediate outputs
+agent_scratchpad/
+output/
+outputs/
+
+#   LangChain conversation memory files
+memory/
+chat_history/
+*.memory
+
+#   Local model weights and embeddings (can be large)
+models/
+embeddings/
+
+#   LLM model file formats (Hugging Face, llama.cpp, GGUF, ONNX, etc.)
+*.bin
+*.gguf
+*.ggml
+*.pt
+*.pth
+*.safetensors
+*.onnx
+*.ot
+*.tflite
+*.pb
+*.h5
+*.keras
+*.ckpt
+*.index
+*.data-00000-of-00001
+
+#   Hugging Face model cache
+.cache/huggingface/
+huggingface/
+hf_cache/
